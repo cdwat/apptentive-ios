@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name     = 'apptentive-ios'
   s.module_name = 'Apptentive'
-  s.version  = '3.2.0'
+  s.version  = '3.2.1'
   s.license  = 'BSD'
   s.summary  = 'Apptentive Customer Communications SDK.'
   s.homepage = 'https://www.apptentive.com/'
@@ -17,7 +17,8 @@ Pod::Spec.new do |s|
 		'ApptentiveConnect/resources/localization/*.lproj',
 		'ApptentiveConnect/resources/images/**/*.*',
 		'ApptentiveConnect/resources/Apptentive.storyboard',
-		'ApptentiveConnect/resources/CocoaPodsResources/Info.plist'
+		'ApptentiveConnect/resources/CocoaPodsResources/Info.plist',
+    'ApptentiveConnect/resources/ApptentiveResources.bundle'
 		] }
   s.weak_frameworks = 'StoreKit', 'CoreTelephony'
   s.prefix_header_contents = '#import "ApptentiveLog.h"'
